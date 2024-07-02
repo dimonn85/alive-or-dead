@@ -1,0 +1,12 @@
+.cell {
+  width: 20px;
+  height: 20px;
+  border: solid 1px gray;
+  box-sizing: border-box;
+  &.alive {
+    background-color: black;
+  }
+  &.dead {
+    background-color: white;
+  }
+}
